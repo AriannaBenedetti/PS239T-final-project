@@ -9,7 +9,7 @@ Next, I loaded these datasets in R, merged and cleaned them. I removed any obser
 ## Dependencies
 
 1. R, version 3.3.2
-2. Python 3.5.2, Anaconda distribution.
+2. Python 3.5.2, Anaconda distribution
 
 ## Files
 
@@ -18,7 +18,7 @@ Next, I loaded these datasets in R, merged and cleaned them. I removed any obser
 1. 01_glassdoor_ceo_pay.csv: The Glassdoor compensation dataset, available here: https://www.glassdoor.com/research/ceo-pay-ratio/ (downloaded via Tableau and converted into a csv). Includes a list of 441 companies and their CEO, CEO pay, median worker pay, the ratio between two. Also has a company ID for each company, best used for merging. This list also includes data on company size and net profits as of Q4 2015, both collected by research assistants on Google Finance.
 2. 02_glassdoor_ratings: Contains data from the Glassdoor API collected via 01_glassdoor_api_ratings.ipynb. Includes updated CEOs, company IDs, employee ratings of overall satisfaction, work/life balance, sr. leadership, compensation & benefits, career opportunities, culture and values, percent that approve of the CEO, percent that would recommend to a friend, number of Glassdoor ratings per company, and industry type.
 3. 03_CEO_outliers.csv: A dataset saved for graphing a CEO-to-worker compensation ratio histogram that included outliers
-4. 04_CEO_analyze: The final Analysis dataset derived from merging files 01 and 02 above. It includes all of the following variables: 
+4. 04_CEO_analyze.csv: The final Analysis dataset derived from merging files 01 and 02 above. It includes all of the following variables: 
     - *id*: Company id used for merging data
     - *company*: Name of company
     - *industry*: Industry type
