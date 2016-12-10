@@ -1,0 +1,87 @@
+---
+title: "02_merge-clean_data"
+author: "Arianna Benedetti"
+output: html_document
+---
+In this code, I will load both datasets into R, merge and clean them, remove observations with non-matching CEOs, remove outliers, and save the datasets for analyses.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+###Install and Load Libraries
+install.packages("dplyr", repos="http://cran.rstudio.com/")
+library(car)
+library(dplyr)
+```
+
+## Loading and Merging Datasets
+
+```{r setting up data}
+
+###Load Data###
+CEO.pay <-read.csv("~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Data/01_glassdoor_ceo_pay.csv", header=T) #previously downloaded CEO pay data
+CEO.ratings <-read.csv("~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Data/02_glassdoor_ratings.csv", header=T) #dataset from Glassdoor Ratings API
+
+#Join datasets
+CEO <- dplyr::inner_join(CEO.pay, CEO.ratings, by = "id")
+CEO <- CEO[c("id", "company", "industry", "ceo2015", "ceo2016", "ceo_comp", "median_comp",
+             "ratio", "numberOfRatings", "ceoratings", "overall_2014", "overall", "culturevalues",              "wlb", "careerops", "comp", "srleadership", "ceopctApprove", "rectofriend", "profits",                 "size")]
+
+```
+
+# Cleaning Data
+
+## Major cleaning includes:
+
+-Removing all CEOs that do not match b/t 2015 dataset (CEO.pay) and 2016 dataset (CEO.ratings). The CEO-to-worker compensation ratio is my primary predictor variable of interest, and lacks meaning if the CEOs have changed in the time frame between collecting the ratio information and collecting the company ratings information.
+
+-Removing any CEO-to-worker ratio outliers
+
+```{r clean data}
+
+CEO$ceo.match <- NULL
+for(i in 1:nrow(CEO)) {
+  index <- with(CEO, adist(ceo2015[i], ceo2016[i]))
+  CEO$ceo.match[i] <- ifelse(index<=8, "match", "no_match")
+}
+#Did this work?
+
+non.matches <- CEO[CEO$ceo.match=="no_match",c("company", "ceo2015", "ceo2016", "ceo.match")]
+non.matches[1:15,]
+matches <- CEO[CEO$ceo.match=="match",c("company", "ceo2015", "ceo2016", "ceo.match")]
+matches[1:15,]
+
+#not a perfect comparison, but all matches are correct
+#all the incorrect ones appear to be false rejections, so I manually made note of them
+
+#Now, fixing the non_matches that are actually matches
+CEO$ceo.match <- as.factor(CEO$ceo.match)
+summary(CEO$ceo.match)
+
+#all the wrong ones
+CEO$company[c(12, 21, 98, 140, 198, 199, 224, 250, 280, 293, 294, 373, 375, 414, 433)]
+CEO$ceo.match[c(12, 21, 98, 140, 198, 199, 224, 250, 280, 293, 294, 373, 375, 414, 433)]
+length(CEO$company[c(12, 21, 98, 140, 198, 199, 224, 250, 280, 293, 294, 373, 375, 414, 433)])#15
+no.match.replace <- array("match", 15)
+#replacing with "match"
+CEO$ceo.match[c(12, 21, 98, 140, 198, 199, 224, 250, 280, 293, 294, 373, 375, 414, 433)] <- no.match.replace
+CEO$ceo.match[c(12, 21, 98, 140, 198, 199, 224, 250, 280, 293, 294, 373, 375, 414, 433)] 
+#now all incorrect non-matches are listed as a match
+summary(CEO$ceo.match)
+
+
+#Make final set with
+CEO.analyze <- CEO[CEO$ceo.match=="match",]
+
+#check for outliers in ratio
+with(CEO.analyze, plot(CEO.analyze$ratio)) #one big one up near 2000
+which(CEO.analyze$ratio>=1500) #this is the index # for that outlier
+CEO.outliers <- CEO.analyze #Save the dataset w/outliers for graphing before I make the change to remove the outliers for analyses
+CEO.analyze <- CEO.analyze[-which(CEO.analyze$ratio>=1500),] #removing that outlier
+
+#Save the datasets
+write.csv(CEO.outliers, "~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Data/03_CEO_outliers.csv")
+write.csv(CEO.analyze, "~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Data/04_CEO_analyze.csv")
+
+#Final count
+nrow(CEO.analyze)
+nrow(CEO.outliers)
+```

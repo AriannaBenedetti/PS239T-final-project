@@ -1,0 +1,206 @@
+---
+title: "03_analysis"
+author: "Arianna Benedetti"
+date: "12/9/2016"
+output: html_document
+---
+
+In this code, I will load the cleaned datasets into R, run correlations between CEO-to-worker compensation ratio and several ratings variables, visualize the significant variables with histograms and scatterplots showing the relationships, and run final regressions controlling for several potential confounds.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+###Install and Load Libraries
+install.packages(c("Hmisc", "ggplot2", "gridExtra", "xlsx"), repos="http://cran.rstudio.com/")
+library(Hmisc)
+library(ggplot2)
+library(gridExtra)
+library(xlsx)
+```
+
+## Loading Datasets For Analysis
+
+```{r setting up data}
+
+###Load Data###
+CEO.outliers <-read.csv("~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Data/03_CEO_outliers.csv", header=T) #Load outlier data for graphing
+CEO.analyze <-read.csv("~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Data/04_CEO_analyze.csv", header=T) #Load Analysis Data
+
+```
+
+## Correlation matrix
+
+Running a correlation matrix between CEO-to-worker comepnsation ratios and several dependent variables of interest. (typically I'd do this after visualizing, but doing it early to cut down on variables to visualize.)
+
+```{r Correlations}
+
+#I like using the Hmisc rcorr to run correlations because 
+#you can easily load the values into a csv
+CEO.correlations <- rcorr(as.matrix(CEO.analyze[c("ratio","overall", "culturevalues", "wlb",
+                                                  "careerops", "comp", "srleadership",
+                                                  "ceopctApprove", "rectofriend"
+                                        )]), type="pearson")
+objects(CEO.correlations) #Hmisc correlations breaks down the objects very nicely
+
+#Primarily interested in relationship b/t CEO ratio & other variables
+#so lets look at just that
+round(cbind(CEO.correlations$r[,1], CEO.correlations$P[,1]),2)
+#Okay, so it appears there is a significant relationship b/t ratio and ratings of work/life balance
+#and ratio and ratings of compensation and benefits
+```
+
+```{save correlations, include=FALSE}
+#And for good measure, I always save my correlations into a xlsx for later reference
+write.xlsx(round(CEO.correlations$r,2), "01_CEO_correlations.xlsx", sheetName="R")
+write.xlsx(round(CEO.correlations$P,2), file="01_CEO_correlations.xlsx", sheetName="P values", append=T)
+file.copy(from="01_CEO_correlations.xlsx", to="~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Results")
+file.remove("01_CEO_correlations.xlsx")
+```
+
+## Visualizing the variables
+
+Now that we're seeing a relationship between CEO ratio and work life balance and compensation and benefits ratings, let's look at the univariate density plots of each of these.
+
+```{r plot univariate}
+##CEO Ratio With outliers
+Ratioplot.outliers<- ggplot(CEO.outliers, aes(ratio)) +
+  geom_histogram(aes(y=..density..), binwidth = 30, colour="black", fill="white") + 
+  stat_function(fun=dnorm, args=list(mean=mean(CEO.analyze$ratio, na.rm=T), sd=sd(CEO.analyze$ratio, na.rm=T))) +
+  xlab("CEO Ratio") +
+  ylab("Density") +
+  theme_classic() +
+  ggtitle("Histogram of CEO-to-worker\nCompensation Ratios with\n a Normal Curve (And Outliers)") +
+  theme(axis.title.x = element_text(face="bold", size=12), axis.title.y = element_text(face="bold",size=12),
+        axis.text.x = element_text(size=12), axis.text.y = element_text(size=12),
+        axis.line.x = element_line(size = .5), axis.line.y = element_line(size = .5),
+        plot.title = element_text(size=15, face="bold", color="red"),
+        legend.position="none")
+Ratioplot.outliers
+
+#CEO Ratio Without outliers
+Ratioplot.nooutliers<-ggplot(CEO.analyze, aes(ratio)) +
+  geom_histogram(aes(y=..density..), binwidth = 30, colour="black", fill="white") + 
+  stat_function(fun=dnorm, args=list(mean=mean(CEO.analyze$ratio, na.rm=T), sd=sd(CEO.analyze$ratio, na.rm=T))) +
+  xlab("CEO Ratio") +
+  ylab("Density") +
+  theme_classic() +
+  ggtitle("Histogram of CEO-to-worker\nCompensation Ratios with\n a Normal Curve") +
+  theme(axis.title.x = element_text(face="bold", size=12), axis.title.y = element_text(face="bold",size=12),
+        axis.text.x = element_text(size=12), axis.text.y = element_text(size=12),
+        axis.line.x = element_line(size = .5), axis.line.y = element_line(size = .5),
+        plot.title = element_text(size=15, face="bold", color="red"),
+        legend.position="none")
+Ratioplot.nooutliers
+#Not very normal even once outliers are removed, but going to keep as-is instead of log-transform for analyses (same results either way, I've checked)
+
+#Now checking work/life balance
+WLBplot <- ggplot(CEO.analyze, aes(wlb)) +
+  geom_histogram(aes(y=..density..), colour="black", fill="white") + 
+  stat_function(fun=dnorm, args=list(mean=mean(CEO.analyze$wlb, na.rm=T), sd=sd(CEO.analyze$wlb, na.rm=T))) +
+  xlab("Work/Life Balance Ratings") +
+  ylab("Density") +
+  theme_classic() +
+  ggtitle("Histogram of Work/Life Balance Ratings with\n a Normal Curve") +
+  theme(axis.title.x = element_text(face="bold", size=12), axis.title.y = element_text(face="bold",size=12),
+        axis.text.x = element_text(size=12), axis.text.y = element_text(size=12),
+        axis.line.x = element_line(size = .5), axis.line.y = element_line(size = .5),
+        plot.title = element_text(size=15, face="bold", color="red"))
+WLBplot
+
+#And checking compensation
+Compplot<- ggplot(CEO.analyze, aes(comp)) +
+  geom_histogram(aes(y=..density..), colour="black", fill="white") + 
+  stat_function(fun=dnorm, args=list(mean=mean(CEO.analyze$comp, na.rm=T), sd=sd(CEO.analyze$comp, na.rm=T))) +
+  xlab("Compensation & Benefits Ratings") +
+  ylab("Density") +
+  theme_classic() +
+  ggtitle("Histogram of Compensation & Benefits Ratings with\n a Normal Curve") +
+  theme(axis.title.x = element_text(face="bold", size=12), axis.title.y = element_text(face="bold",size=12),
+        axis.text.x = element_text(size=12), axis.text.y = element_text(size=12),
+        axis.line.x = element_line(size = .5), axis.line.y = element_line(size = .5),
+        plot.title = element_text(size=15, face="bold", color="red"),
+        legend.position="none")
+Compplot
+#Both look very normal
+```
+
+Now let's take a look at the bivariate scatterplots with a regression line of CEO ratio and work/life balance as well as CEO ratio and compensation and benefits ratings.
+
+```{r bivariate plots}
+
+#Work/life balance
+Ratio.WLB.plot <- ggplot(CEO.analyze, aes(x=ratio, y=wlb)) +
+  geom_smooth(method=lm, se=F) + 
+  geom_point(shape=1) +
+  xlab("CEO Ratio") +
+  ylab("Work/Life Balance Ratings") +
+  coord_cartesian(xlim=c(0,1250), ylim=c(2,4.5)) +
+  scale_x_continuous(breaks=seq(0, 1250, 250)) +
+  scale_y_continuous(breaks=seq(2, 4.5, .5)) +
+  theme_classic() +
+  ggtitle("CEO Ratio & Work/Life Balance Ratings") +
+  theme(axis.title.x = element_text(face="bold", size=12), axis.title.y = element_text(face="bold",size=12),
+        axis.text.x = element_text(size=12), axis.text.y = element_text(size=12),
+        axis.line.x = element_line(size = .5), axis.line.y = element_line(size = .5),
+        plot.title = element_text(size=15, face="bold", color="blue"),
+        legend.position="none")
+Ratio.WLB.plot
+
+#Compensation and Benefits
+Ratio.Comp.plot <- ggplot(CEO.analyze, aes(x=ratio, y=comp)) +
+  geom_smooth(method=lm, se=F) + 
+  geom_point(shape=1) +
+  xlab("CEO Ratio") +
+  ylab("Compensation & Benefits Ratings") +
+  coord_cartesian(xlim=c(0,1250), ylim=c(2,5)) +
+  scale_x_continuous(breaks=seq(0, 1250, 250)) +
+  scale_y_continuous(breaks=seq(2, 5, .5)) +
+  theme_classic() +
+  ggtitle("CEO Ratio & Compensation and Benefits Ratings") +
+  theme(axis.title.x = element_text(face="bold", size=12), axis.title.y = element_text(face="bold",size=12),
+        axis.text.x = element_text(size=12), axis.text.y = element_text(size=12),
+        axis.line.x = element_line(size = .5), axis.line.y = element_line(size = .5),
+        plot.title = element_text(size=15, face="bold", color="blue"),
+        legend.position="none")
+Ratio.Comp.plot
+```
+
+```{r saving plots to file, include=FALSE}
+#Let's save all these plots to results
+ratioplots <- arrangeGrob(Ratioplot.outliers, Ratioplot.nooutliers, nrow=2)
+ggsave("~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Results/02_ratio-univariate-graphs.pdf", ratioplots, 
+       width=4, height=8, units="in")
+
+wlbcompplots <- arrangeGrob(WLBplot, Compplot, nrow=2)
+ggsave("~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Results/03_wlb-comp-univariate-graphs.pdf", wlbcompplots)
+
+scatterplots <- arrangeGrob(Ratio.WLB.plot, Ratio.Comp.plot, nrow=2)
+ggsave("~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Results/04_wlb-comp-scatterplot-graphs.pdf", scatterplots)
+
+```
+## Regressions controlling for other variables
+
+It appears that there is a negative relationship between CEO-to-worker compensation ratios and workers' work/life balance and compensation & benfits ratings. Let's see if this relationship is still significant when controlling for company size, company ratings, and net company income (as of Quarter 4, 2015)
+
+```{r run regressions}
+
+#check to make sure these function as we want them in the analyses
+class(CEO.analyze$size)
+class(CEO.analyze$profits)
+class(CEO.analyze$numberOfRatings)
+
+#These are categorized correctly...let's check whether the relationships hold controlling for size, profits, and # of ratings
+
+wlb.reg <- summary(lm(scale(wlb) ~ scale(ratio) + scale(size) + scale(profits) + scale(numberOfRatings), data=CEO.analyze))
+wlb.reg  #ratio still significantly negatively predicts work/life balance ratings
+
+comp.reg <- summary(lm(scale(comp) ~ scale(ratio) + scale(size) + scale(profits) + scale(numberOfRatings), data=CEO.analyze)) 
+comp.reg #ratio still significantly negatively predicts compensation/benefits ratings
+```
+
+```{save regressions, include=FALSE}
+write.xlsx(round(as.data.frame(wlb.reg$coefficients),2), "05_regressions.xlsx", sheetName="WLB")
+write.xlsx(round(as.data.frame(comp.reg$coefficients),2), file="05_regressions.xlsx", sheetName="Comp", append=T)
+file.copy(from="05_regressions.xlsx", to="~/Box Sync/Berkeley/Fall 2016/PolSci239T/PS239T-final-project/Results")
+file.remove("05_regressions.xlsx")
+```
+

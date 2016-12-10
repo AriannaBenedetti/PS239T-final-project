@@ -1,0 +1,442 @@
+ceo2016,srleadership,company_ratings,error,comp,ceoratings,numberOfRatings,culturevalues,ceopctApprove,id,overall,industry,careerops,rectofriend,wlb
+Inge G. Thulin,3.2,3M,None,3.7,482,1357,3.7,86,446,3.7,Chemical Manufacturing,3.4,75,3.5
+Miles D. White,3.3,Abbott Labs,None,3.8,526,1019,3.6,80,12,3.6,Biotech & Pharmaceuticals,3.3,75,3.5
+Richard A. Gonzalez,3.2,AbbVie,None,3.9,208,557,3.5,85,649837,3.6,Biotech & Pharmaceuticals,3.3,71,3.4
+Pierre Nanterme,3.2,Accenture,None,3.4,8930,21188,3.7,94,4138,3.7,,3.6,81,3.2
+Evan G. Greenberg,2.8,ACE Group,None,3.1,55,148,3,63,382053,2.7,Insurance Carriers,2.6,47,2.9
+Juan R. Luciano,2.9,ADM,None,3.3,68,345,3.1,86,55,3.2,Food Production,3.2,59,2.9
+Shantanu Narayen,3.6,Adobe,None,4.1,1307,2278,4.2,95,1090,4,Computer Hardware & Software,3.7,87,4.1
+Carlos A. Rodriguez,3.1,ADP,None,3.5,1867,4300,3.5,87,64,3.5,Staffing & Outsourcing,3.4,70,3.4
+Tim Whall,2.3,ADT Security Services,None,3,57,1421,2.6,64,13956,2.7,Security Services,2.6,39,2.7
+Darren R. Jackson,2.4,Advance Auto Parts,None,2.6,727,1592,2.7,44,8708,2.9,"Department, Clothing, & Shoe Stores",2.7,43,2.7
+Nick Akins,3.5,AEP,None,3.8,101,232,3.5,83,34,3.7,Energy,3.3,68,3.6
+AndrÃ©s Gluski,3.4,AES Corporation,None,3.9,124,214,4,89,291,3.8,Utilities,3.4,87,3.4
+Mark T. Bertolini,2.9,Aetna,None,3.3,655,1374,3.3,78,16,3.3,Insurance Carriers,3,63,3.3
+Dan Amos,3.2,Aflac,None,3,795,1603,3.6,91,1302,3.3,Insurance Carriers,3.3,55,3.8
+Mike McMullen,3.1,Agilent Technologies,None,3.4,93,828,3.8,81,9711,3.6,Biotech & Pharmaceuticals,3.2,80,3.9
+Peter Hancock,2.5,AIG,None,3.3,602,2254,2.8,46,40,3,Insurance Carriers,2.8,45,3.3
+Terry Considine,3.1,Aimco Apartment Homes,None,3.5,136,261,3.7,85,24024,3.5,Real Estate,3.4,67,3.1
+Seifi Ghasemi,2.8,Air Products,None,3.6,104,442,3.2,47,17,3.4,Chemical Manufacturing,3.1,54,3.6
+Pascal Vinet,2.3,Airgas,None,3.1,5,405,2.6,51,18,2.9,Oil & Gas Services,2.7,45,2.9
+Tom Leighton,3.6,Akamai,None,4,445,744,4,95,9219,4,IT Services,3.6,81,3.9
+Klaus Kleinfeld,2.4,Alcoa,None,3.6,238,529,3,54,29,3.1,Metal & Mineral Manufacturing,2.9,47,3
+Brenton Saunders,2.9,Allergan,None,3.6,69,588,3.2,71,27,3.5,Biotech & Pharmaceuticals,3.1,66,3.3
+Ed Heffernan,3.4,Alliance Data,None,3.9,189,329,3.8,96,11421,3.6,Advertising & Marketing,3.5,70,3.6
+Thomas J. Wilson II,3,Allstate,None,3.2,1167,2778,3.5,73,2341,3.4,Insurance Carriers,3.2,63,3.5
+John P. Daane,3.1,Altera,None,3.6,241,438,3.5,73,1112,3.4,Electrical & Electronic Manufacturing,3.3,67,3.5
+Martin J. Barrington,3.5,Altria,None,4.5,257,588,3.8,92,528,3.8,Consumer Products Manufacturing,3.4,74,3.9
+Jeff Bezos,3,Amazon.com,None,3.6,5836,10789,3.3,81,6036,3.5,General Merchandise & Superstores,3.5,65,2.8
+Warner L. Baxter,3.5,Ameren,None,4.4,50,121,3.7,79,690,3.8,Utilities,3.6,82,4
+Doug Parker,2.9,American Airlines,None,3.3,409,1508,3.3,68,8,3.6,Airlines,3.5,72,3.3
+Ken Chenault,3.2,American Express,None,3.6,2633,4220,3.7,84,35,3.6,Financial Transaction Processing,3.3,74,3.8
+Jim Taiclet Jr.,2.8,American Tower,None,3.4,119,233,3.1,92,8043,3.2,Telecommunications Services,2.8,53,3.2
+Jim Cracchiolo,3.3,Ameriprise,None,3.3,548,1061,3.6,85,15316,3.5,Investment Banking & Asset Management,3.3,71,3.5
+Steven Collis,2.7,AmerisourceBergen,None,3.6,213,538,3.2,72,2703,3.2,Biotech & Pharmaceuticals,3,60,3.1
+David A. Zapico,2.2,AMETEK,None,3.3,7,119,2.5,43,7,2.7,Electrical & Electronic Manufacturing,2.4,38,2.8
+Robert A. Bradway,2.8,Amgen,None,3.9,439,1241,3.3,59,1130,3.5,Biotech & Pharmaceuticals,3,64,3.4
+R. A. Walker,3.4,Anadarko Petroleum,None,4.5,127,265,3.7,77,48,3.9,Oil & Gas Exploration & Production,3.3,74,4.1
+Vincent Roche,3.3,Analog Devices,None,3.4,105,440,3.8,86,49,3.7,Electrical & Electronic Manufacturing,3.4,85,4.1
+Joseph R. Swedish,2.7,Anthem,None,3.5,228,519,3.2,73,925157,3.3,Insurance Carriers,3,60,3.2
+Greg Case,3.1,Aon,None,3.2,464,1061,3.4,85,53,3.4,Insurance Agencies & Brokerages,3.2,66,3.4
+"John J. Christmann, IV",3.2,Apache,None,4,18,128,3.4,87,54,3.6,Oil & Gas Exploration & Production,3.3,74,3.6
+Tim Cook,3.5,Apple,None,4.1,5216,8871,4.1,95,1138,4,Computer Hardware & Software,3.4,80,3.3
+Gary Dickerson,3,Applied Materials,None,3.6,210,981,3.5,83,1139,3.5,Electrical & Electronic Manufacturing,3.2,73,3.3
+Alan Colberg,2.8,Assurant,None,3.2,75,458,3.2,84,13793,3.3,Insurance Carriers,2.9,55,3.2
+Randall L. Stephenson,2.9,AT&T,None,3.8,5912,13225,3.2,72,613,3.4,Telecommunications Services,3.2,62,2.9
+Carl Bass,3.4,Autodesk,None,4,633,1121,4,90,1155,3.9,Computer Hardware & Software,3.4,80,4
+Mike Jackson,2.5,AutoNation,None,2.6,292,573,2.6,58,2593,2.7,Vehicle Dealers,2.7,39,2.3
+Bill Rhodes III,2.6,AutoZone,None,2.7,779,1589,3.2,69,610,3.1,Automotive Parts & Accessories Stores,2.9,51,2.7
+Hock E. Tan,2.5,Avago Technologies,None,3.5,136,254,2.5,53,40386,2.9,Electrical & Electronic Manufacturing,2.7,48,2.8
+Timothy J. Naughton,3.4,AvalonBay,None,3.4,133,241,3.9,86,2616,3.8,Real Estate,3.6,76,3.7
+Mitchell Butier,2.7,Avery Dennison,None,3.6,9,503,3.3,64,65,3.4,Chemical Manufacturing,3.2,59,3
+Martin Craighead,2.7,Baker Hughes,None,3.8,709,1784,3.4,58,72,3.5,Oil & Gas Services,3.2,62,3.1
+Brian T. Moynihan,2.9,Bank of America,None,3.6,5749,14376,3.3,75,8874,3.4,Banks & Credit Unions,3.3,63,3.3
+Timothy M. Ring,2.8,Bard,None,3.5,37,113,3.1,84,116,3.2,Health Care Products Manufacturing,3,55,3.2
+JosÃ© (Joe) Almeida,2.8,Baxter,None,3.5,86,1141,3.3,81,83,3.3,Biotech & Pharmaceuticals,3.1,64,3.3
+Kelly S. King,3,BB&T,None,3.6,626,1091,3.7,85,1893,3.3,Investment Banking & Asset Management,3,66,3.4
+Vincent A. Forlenza,3,BD,None,3.4,255,867,3.6,79,88,3.3,Health Care Products Manufacturing,3.1,66,3.2
+Steve Temares,2.6,Bed Bath & Beyond,None,2.7,669,1964,3,49,1961,3,Home Furniture & Housewares Stores,2.6,46,2.8
+Hubert Joly,3.2,Best Buy,None,3.3,4752,12390,3.7,86,97,3.6,Consumer Electronics & Appliances Stores,3.3,76,3.3
+George A. Scangos,2.8,Biogen,None,4.1,299,617,3.5,82,1336,3.4,Biotech & Pharmaceuticals,3,63,3.4
+Laurence D. Fink,3.5,BlackRock,None,3.3,805,1305,3.8,89,9331,3.6,Investment Banking & Asset Management,3.5,75,3.4
+Gerald Hassell,2.6,BNY Mellon,None,2.8,910,2688,3,64,78,3,Investment Banking & Asset Management,2.7,54,3.5
+Dennis A. Muilenburg,2.8,Boeing,None,3.9,722,4726,3.2,85,102,3.5,Aerospace & Defense,3.3,69,3.7
+James R. Verrier,3.3,BorgWarner,None,3.6,45,213,3.6,83,1652,3.7,Transportation Equipment Manufacturing,3.3,77,3.4
+Michael F. Mahoney,3.4,Boston Scientific,None,3.8,293,883,3.7,96,2187,3.8,Health Care Products Manufacturing,3.4,77,3.5
+Giovanni Caforio,3.3,Bristol-Myers Squibb,None,3.8,171,970,3.8,83,107,3.8,Biotech & Pharmaceuticals,3.4,82,3.6
+Scott McGregor,2.9,Broadcom,None,3.7,782,1751,3.2,52,6926,3.5,Electrical & Electronic Manufacturing,3.2,64,3.4
+Paul C. Varga,3.8,Brown-Forman,None,4.2,77,141,4.2,96,797,4.1,Food & Beverage Manufacturing,3.3,83,3.9
+John P. Wiehoff,2.9,C.H. Robinson,None,3,387,779,3.3,84,7124,3.2,Logistics & Supply Chain,2.9,56,2.9
+Michael P. Gregoire,2.7,CA Technologies,None,3.7,747,1935,3.3,73,167,3.2,Computer Hardware & Software,3,55,3.7
+Dexter Goei,2.6,Cablevision Systems,None,3.8,21,771,3,66,802,3.2,"Cable, Internet & Telephone Providers",2.8,57,3
+Scott Rowe,2.9,Cameron,None,3.6,58,573,3.5,83,4403,3.5,Oil & Gas Services,3.2,73,3.3
+Denise Morrison,3.3,Campbell Soup Company,None,3.9,142,307,3.6,77,129,3.5,Food & Beverage Manufacturing,3.4,76,3.6
+Richard D. Fairbank,3.3,Capital One,None,3.9,2049,3988,4,92,3736,3.8,Banks & Credit Unions,3.5,76,3.9
+George S. Barrett,3.2,Cardinal Health,None,3.4,533,1115,3.6,90,1227,3.5,Wholesale,3.3,69,3.4
+Bill Nash,3.2,CarMax,None,3.3,4,1644,3.8,100,6561,3.5,Vehicle Dealers,3.5,72,3.2
+Micky Arison,3,Carnival,None,3.1,110,437,3.5,87,806,3.4,Transportation Management,3.1,67,3
+Douglas R. Oberhelman,2.6,Caterpillar,None,3.7,1049,2152,3.3,36,137,3.3,Industrial Manufacturing,3.1,54,3.5
+Robert E. Sulentic,3.4,CBRE,None,3.3,483,1568,3.7,94,465818,3.7,Real Estate,3.6,75,3.5
+Les Moonves,3,CBS Corp,None,3.3,40,90,3.3,90,1053,3.3,Motion Picture Production & Distribution,2.8,58,3.3
+Mark J. Alles,2.9,Celgene,None,4,18,216,3.3,88,1235,3.4,Biotech & Pharmaceuticals,3,75,3.3
+Scott M. Prochazka,3.4,CenterPoint Energy,None,3.8,30,173,3.9,97,338,4,Energy,3.4,88,3.8
+"Glen F. Post, III",2.5,CenturyLink,None,3.2,763,2014,3,60,248324,3,"Cable, Internet & Telephone Providers",2.8,51,3.2
+Neal L. Patterson,3.2,Cerner,None,3.2,973,1822,3.5,84,1242,3.5,Computer Hardware & Software,3.5,70,3.1
+Walt Bettinger II,3.2,Charles Schwab,None,3.3,870,1540,3.8,87,144,3.5,Investment Banking & Asset Management,3.3,65,3.7
+Robert D. Lawler,3.2,Chesapeake Energy,None,4.4,121,278,3.5,77,906,3.7,Oil & Gas Exploration & Production,3.3,69,3.8
+John S. Watson,3.3,Chevron,None,4.1,763,1675,3.9,85,13524,3.9,Oil & Gas Exploration & Production,3.6,83,4
+Steve  Ells & Montgomery  F. Moran,3.1,Chipotle,None,3.4,1390,2681,4,87,15228,3.4,Casual Restaurants,3.7,62,2.9
+John D. Finnegan,3,Chubb,None,3.4,213,494,3.3,39,150,3.4,Insurance Carriers,3,59,3.5
+David Cordani,3.1,Cigna,None,3.4,609,1293,3.5,88,119,3.5,Insurance Carriers,3.3,68,3.5
+Scott D. Farmer,2.9,Cintas,None,3.5,776,1489,3.4,80,1256,3.3,Building & Personnel Services,3.3,60,3
+Chuck Robbins,3.2,Cisco Systems,None,3.8,1548,10568,3.8,88,1425,3.8,Computer Hardware & Software,3.5,77,3.9
+Michael Corbat,3,Citi,None,3.3,1709,6100,3.3,85,8843,3.4,Investment Banking & Asset Management,3.3,68,3.3
+Kirill Tatarinov,3,Citrix,None,3.7,102,1794,3.7,88,5432,3.5,Computer Hardware & Software,3.2,67,3.8
+Benno Dorer,3.9,Clorox,None,3.7,155,546,4.3,98,158,4.1,Consumer Products Manufacturing,3.7,86,4.3
+Phupinder Gill,3,CME Group,None,3.7,175,447,3.2,79,7796,3.5,Brokerage Services,3.2,57,3.6
+Victor Luis,3,Coach,None,3.5,248,1071,3.5,83,12070,3.5,Other Retail Stores,3,67,3.2
+Muhtar Kent,2.8,Coca-Cola Company,None,3.5,1054,3127,3.3,71,161,3.4,Food & Beverage Manufacturing,3.1,64,3.1
+John F. Brock,2.7,"Coca-Cola Enterprises, Inc.",None,3.4,75,346,3.2,63,36955,3.3,Wholesale,3,54,3
+Frank D'Souza,3,Cognizant Technology Solutions,None,3.2,8299,13917,3.6,94,8014,3.6,IT Services,3.5,79,3.4
+Ian M. Cook,3.5,Colgate-Palmolive,None,3.8,320,600,4,92,162,3.8,Consumer Products Manufacturing,3.5,84,3.8
+Brian L. Roberts,3,Comcast,None,3.7,2465,5207,3.3,80,1280,3.4,"Cable, Internet & Telephone Providers",3.4,66,3.3
+Ralph W. Babb Jr.,2.8,Comerica,None,3.3,184,494,3.3,56,1281,3.3,Investment Banking & Asset Management,3,60,3.8
+Mike Lawrie,2.2,CSC,None,2.6,2019,5413,2.6,39,169,2.7,IT Services,2.5,38,3.1
+John McAvoy,3.2,Con Edison,None,3.8,21,69,3.1,87,174,3.5,Energy,3.8,64,3.2
+Sean Connolly,2.4,ConAgra Foods,None,3.4,188,796,2.7,34,172,2.9,Food & Beverage Manufacturing,2.8,40,3.2
+Ryan M. Lance,3,ConocoPhillips,None,4.2,259,723,3.6,68,14933,3.6,Oil & Gas Exploration & Production,3.2,71,3.8
+Nicholas J. DeIuliis,2.4,CONSOL Energy,None,3.3,45,133,2.8,33,2751,2.9,Energy,2.2,36,3
+Rob Sands,3.2,Constellation Brands,None,3.8,63,131,3.5,79,805,3.4,Food & Beverage Manufacturing,2.9,64,3.3
+Wendell P. Weeks,3.3,Corning,None,3.7,238,453,3.8,83,183,3.7,Electrical & Electronic Manufacturing,3.5,77,3.5
+Craig Jelinek,3.4,Costco Wholesale,None,4.2,1446,3201,3.9,90,2590,4,General Merchandise & Superstores,3.7,81,3.5
+Jay Brown,3.7,Crown Castle,None,3.9,10,179,4,88,8416,3.9,Telecommunications Services,3.3,86,3.8
+Michael J. Ward,2.7,CSX,None,4.1,209,422,2.9,68,124,3.2,Transportation Management,3.1,58,2.3
+Tom Linebarger,3.4,Cummins,None,3.5,813,1552,4.1,84,187,3.7,Transportation Equipment Manufacturing,3.7,79,3.9
+Larry J. Merlo,2.4,CVS Health,None,2.7,3092,8894,2.7,38,437,2.7,Health Care Services & Hospitals,2.8,36,2.5
+David V. Auld,2.8,D.R. Horton,None,3.3,32,172,2.9,93,2195,3.2,Construction,3,56,3
+"Thomas P. Joyce, Jr.",2.8,Danaher,None,3.4,31,226,3,84,193,3.2,Electrical & Electronic Manufacturing,3.3,53,2.8
+Gene Lee,3.1,Darden,None,3.2,117,1233,3.5,71,4160,3.6,Casual Restaurants,3.2,70,3.3
+Kent J. Thiry,2.9,DaVita,None,3,777,1436,3.7,78,5367,3.3,Health Care Services & Hospitals,3.3,60,3.1
+Kevin P. Clark,2.9,Delphi,None,3.4,72,640,3.2,67,8611,3.4,Transportation Equipment Manufacturing,3.2,66,3.5
+Ed Bastian,3.6,Delta Air Lines,None,4,124,1478,4.1,94,197,4.2,Airlines,3.8,86,3.7
+Jeffrey T. Slovin,3.1,Dentsply Sirona,None,3.6,18,217,3.3,86,1438,3.5,Health Care Products Manufacturing,3.3,74,3.5
+John Richels,3.5,Devon Energy,None,4.6,155,269,3.9,87,839,3.9,Oil & Gas Exploration & Production,3.5,77,4.2
+David W. Nelms,3.4,Discover,None,3.6,586,1192,3.9,93,13990,3.7,Lending,3.5,76,3.8
+David M. Zaslav,3,Discovery Communications,None,3.6,328,638,3.7,61,4220,3.5,TV Broadcast & Cable Networks,3.1,65,3.6
+Todd Vasos,2.4,Dollar General,None,2.5,600,3313,2.6,48,1342,2.7,Other Retail Stores,3,39,2.3
+Bob Sasser,2.4,Dollar Tree,None,2.2,663,1788,2.5,44,4033,2.8,,2.7,42,2.6
+Thomas F. Farrell II,3.6,Dominion Resources,None,4,77,133,3.8,78,204,3.7,Energy,3.6,90,3.9
+Andrew N. Liveris,3.1,Dow Chemical,None,3.7,555,1084,3.6,53,207,3.7,Chemical Manufacturing,3.5,74,3.5
+Larry D. Young,2.6,Dr Pepper Snapple Group,None,3.1,186,449,2.8,68,13335,3.1,Food & Beverage Manufacturing,2.9,50,2.8
+Gerard M. Anderson,3.4,DTE Energy,None,4.1,132,262,3.7,93,199,3.8,Utilities,3.5,76,3.8
+Lynn J. Good,3,Duke Energy,None,3.8,169,499,3.4,83,211,3.5,Energy,3.4,72,3.5
+Robert Carrigan,2.9,Dun & Bradstreet,None,3.3,166,631,3.2,74,213,3.1,Financial Analytics & Research,2.8,46,3.6
+Edward D. Breen,2.4,DuPont,None,3.5,156,1112,3.5,16,215,3.2,Chemical Manufacturing,2.8,43,3.6
+Paul T. Idzik,2.6,E*TRADE Financial,None,3.2,192,587,2.8,67,6005,3,Brokerage Services,2.7,46,3.1
+Mark J. Costa,3.8,Eastman,None,3.9,518,1241,4.2,87,2452,4.1,Chemical Manufacturing,3.9,85,4
+Craig Arnold,2.9,Eaton,None,3.5,25,1169,3.5,83,221,3.4,Electrical & Electronic Manufacturing,3.3,70,3.4
+Devin Wenig,3,eBay,None,3.9,240,1976,3.7,83,7853,3.6,Internet,3.3,73,3.8
+Doug Baker Jr.,2.9,Ecolab,None,3.3,475,830,3.3,78,222,3.2,Chemical Manufacturing,3.1,59,2.7
+Michael A. Mussallem,2.9,Edwards Lifesciences,None,3.7,172,278,3.4,98,11809,3.6,Health Care Products Manufacturing,3.2,69,2.9
+Andrew Wilson,3.4,Electronic Arts,None,3.7,355,1436,3.8,95,1628,3.9,Video Games,3.4,83,3.7
+John C. Lechleiter,3.5,Eli Lilly,None,3.9,574,980,4,86,223,3.9,Biotech & Pharmaceuticals,3.5,83,4
+Michael Dell,3.3,EMC,None,3.7,24,4137,3.7,87,219,3.8,IT Services,3.4,77,3.7
+David N. Farr,3.1,Emerson,None,3.2,410,1641,3.5,83,225,3.5,Electrical & Electronic Manufacturing,3.2,70,3.6
+Paul Campanelli,2.1,Endo Pharmaceuticals,None,3.6,0,101,2.2,0,11705,2.6,Biotech & Pharmaceuticals,2.2,41,2.8
+Leo Denault,2.9,Entergy,None,3.7,22,110,3.5,69,231,3.8,Energy,3.3,74,3.5
+William R. Thomas,3.6,EOG,None,3.7,22,91,3.7,89,1467,3.6,Oil & Gas Exploration & Production,3.1,67,3.6
+Rick Smith,3.1,Equifax,None,3.2,282,540,3.2,90,232,3.3,Financial Analytics & Research,3.1,63,3.6
+Stephen M. Smith,3.8,Equinix,None,4.1,177,261,3.9,96,11296,4,Enterprise Software & Network Solutions,3.6,80,3.5
+David J. Neithercut,3.3,Equity Residential,None,3.7,199,324,3.8,85,3635,3.7,Real Estate,3.7,73,3.3
+Michael Schall,2.7,Essex Property Trust,None,2.6,48,113,2.6,63,3630,2.5,Real Estate,3,44,2.7
+Fabrizio Freda,3.2,EstÃ©e Lauder Companies,None,3.5,357,739,3.8,94,2785,3.7,Consumer Products Manufacturing,3.2,73,3.4
+Christopher M. Crane,3.7,Exelon,None,4.2,163,419,3.9,87,526,3.9,Energy,3.9,79,3.6
+Dara Khosrowshahi,3.6,Expedia,None,3.9,1189,1840,4,97,9876,3.9,Internet,3.7,79,4.1
+Jeffrey S. Musser,3,Expeditors,None,3.1,136,580,3.4,91,1381,3.3,Logistics & Supply Chain,3.3,57,3
+Tim Wentworth,2.6,Express Scripts,None,3.2,142,1879,2.7,81,2212,2.8,Health Care Services & Hospitals,2.8,45,2.7
+Rex W. Tillerson,3.3,ExxonMobil,None,4.1,552,1574,3.6,87,237,3.8,Oil & Gas Exploration & Production,3.6,75,3.5
+John McAdam,3.6,F5 Networks,None,4.3,70,485,4,95,9222,4,Computer Hardware & Software,3.6,81,4
+Mark Zuckerberg,4.2,Facebook,None,4.5,1325,1686,4.5,98,40772,4.5,Internet,4.3,92,3.8
+Daniel Florness,2.8,Fastenal,None,2.5,89,1486,3.2,70,1391,3.1,"Department, Clothing, & Shoe Stores",3.2,58,3.3
+Fred Smith,3.2,FedEx,None,3.6,1314,2569,3.6,89,246,3.8,Express Delivery Services,3.4,75,3.5
+Greg D. Carmichael,2.9,Fifth Third,None,3.4,68,1222,3.3,68,1395,3.4,Investment Banking & Asset Management,3.3,61,3.5
+James A. Hughes,3.2,First Solar,None,3.7,65,165,3.4,68,41703,3.5,Electrical & Electronic Manufacturing,3.1,63,3.4
+Chuck Jones,3.1,FirstEnergy,None,3.8,7,212,3.2,63,493,3.4,Utilities,3.5,66,3.2
+Gary Norcross,2.7,FIS,None,3.1,304,1336,3,73,313114,3.1,Enterprise Software & Network Solutions,2.9,59,3.1
+Jeffery Yabuki,2.7,Fiserv,None,3.1,890,1704,3.1,75,1384,3.2,Financial Transaction Processing,3.1,63,3.4
+Andrew C. Teich,2.8,FLIR,None,3.5,15,74,3.1,76,2559,3.3,Electrical & Electronic Manufacturing,2.7,52,3
+Mark Blinn,2.5,Flowserve,None,3.2,140,344,2.9,45,1350,3,Industrial Manufacturing,2.6,58,3.1
+David T. Seaton,3.2,Fluor,None,3.7,382,958,3.6,82,262,3.8,Construction,3.4,75,3.4
+Pierre Brondeau,2.7,FMC,None,3.8,65,149,3.1,47,239,3.1,Chemical Manufacturing,3,56,3.2
+John T. Gremp,2.6,FMC Technologies,None,3.5,283,580,3.3,83,13228,3.2,Industrial Manufacturing,2.9,59,3.3
+Mark Fields,3.4,Ford Motor Company,None,3.8,515,1955,3.8,92,263,4,Transportation Equipment Manufacturing,3.6,81,3.6
+Kosta N. Kartsotis,2.9,Fossil,None,3,258,719,3.8,79,2319,3.5,Beauty & Personal Accessories Stores,2.9,64,3.5
+Gregory E. Johnson,3.3,Franklin Templeton Investments,None,3.5,227,534,3.9,97,240744,3.7,Investment Banking & Asset Management,3,79,4.1
+Richard C. Adkerson,3.5,Freeport-McMoRan Copper & Gold,None,4.2,128,290,3.8,70,266,3.9,Mining,3.7,77,3.4
+Dan McCarthy,2.7,Frontier Communications,None,3.4,114,903,3,67,131305,3,"Cable, Internet & Telephone Providers",3,54,2.9
+J. Paul Raines,2.8,GameStop,None,2.6,1177,2758,3.1,66,1162,3.1,Toy & Hobby Stores,2.8,49,2.9
+Art Peck,3.1,Gap,None,3.3,474,3482,3.8,80,114118,3.6,"Department, Clothing, & Shoe Stores",3.1,69,3.4
+Clifton Pemble,3.4,Garmin,None,3.6,197,487,3.9,87,12667,3.7,Consumer Products Manufacturing,3.1,72,3.9
+Jeffrey R. Immelt,3.4,GE,None,3.6,2074,5439,3.8,88,277,3.8,Enterprise Software & Network Solutions,3.7,81,3.5
+Phebe N. Novakovic,2.6,General Dynamics,None,3.4,75,370,2.9,61,276,3.1,Aerospace & Defense,2.8,49,3.2
+Sandeep Mathrani,2.7,General Growth Properties,None,3.3,41,164,3.1,45,2317,3.2,Real Estate,2.9,50,3.8
+Ken Powell,3,General Mills,None,3.7,727,1249,3.7,72,278,3.5,Food & Beverage Manufacturing,3.2,70,3.7
+Mary Barra,3.1,General Motors,None,3.8,662,2123,3.4,91,279,3.7,Transportation Equipment Manufacturing,3.4,72,3.5
+Tom Gallagher,2.6,Genuine Parts,None,3.3,37,97,2.7,67,282,3.1,Logistics & Supply Chain,2.7,53,3
+Thomas McInerney,2.6,Genworth,None,3.4,145,463,3.2,46,34925,3.2,Insurance Carriers,2.6,47,3.5
+John Milligan,2.7,Gilead Sciences,None,3.5,24,461,3,80,2016,3.1,Biotech & Pharmaceuticals,2.9,58,2.3
+Lloyd C. Blankfein,3.4,Goldman Sachs,None,3.8,2066,3601,3.8,93,2800,3.8,Investment Banking & Asset Management,3.9,77,2.7
+Richard J. (Rich) Kramer,2.7,Goodyear,None,3.5,230,567,2.9,78,292,3.2,Industrial Manufacturing,3.1,61,2.8
+Sundar Pichai,3.9,Google,None,4.4,771,5897,4.4,98,9079,4.4,Internet,4.1,91,4.1
+William C. Cobb,3.1,H&R Block,None,2.6,628,2096,3.5,75,303,3.5,Other Retail Stores,3.1,69,3.6
+Dave Lesar,2.7,Halliburton,None,3.6,853,1971,3.1,62,307,3.4,Oil & Gas Services,3.2,65,2.8
+Rich Noll,2.5,Hanesbrands,None,3.1,108,246,2.8,44,13758,2.9,Consumer Products Manufacturing,2.5,47,2.9
+Matthew S. Levatich,2.8,Harley-Davidson,None,3.4,76,447,3.4,73,314,3.2,Transportation Equipment Manufacturing,2.9,55,3
+Dinesh C. Paliwal,2.9,HARMAN,None,3.1,222,452,3.1,75,315,3.3,Consumer Products Manufacturing,3.2,64,3.3
+Bill Brown,2.4,Harris,None,2.8,430,1176,2.9,26,317,2.9,Aerospace & Defense,2.8,48,3.2
+Brian Goldner,3.5,Hasbro,None,3.5,43,299,4.1,89,890,3.7,Consumer Products Manufacturing,3.2,80,3.8
+Stanley M. Bergman,3.1,Henry Schein,None,3.2,170,308,3.6,71,5319,3.4,Wholesale,3,58,3.6
+John B. Hess,3.5,Hess Corporation,None,4.2,148,264,4,90,30,4,Oil & Gas Exploration & Production,3.5,80,3.7
+Meg Whitman,2.8,Hewlett-Packard,None,3.1,5819,15602,3.4,68,327,3.3,Computer Hardware & Software,3,61,3.6
+David M. Cote,2.5,Honeywell,None,2.8,1621,3923,2.9,56,28,3.1,Electrical & Electronic Manufacturing,2.9,51,3
+James P. Snee,3.7,Hormel,None,3.8,0,156,3.6,0,877,3.7,Food & Beverage Manufacturing,3.7,73,2.9
+F. Michael (Mike) Ball,2.6,Hospira,None,3.4,180,470,2.8,68,35009,3.1,Biotech & Pharmaceuticals,2.7,56,2.9
+R. Milton Johnson,3,Hospital Corporation of America,None,3.3,271,970,3.3,76,2062,3.4,Health Care Services & Hospitals,3.4,66,3.3
+Bruce  D. Broussard,3,Humana,None,3.5,715,1963,3.6,79,340,3.5,Insurance Carriers,3.3,69,3.4
+Steve Steinour,2.9,Huntington National Bank,None,3.3,303,635,3.5,80,1496,3.3,Banks & Credit Unions,3.2,59,3.1
+Virginia Rometty,2.8,IBM,None,3,8482,25187,3.3,57,354,3.4,Consulting,3.3,60,3.5
+E. Scott Santi,2.8,Illinois Tool Works,None,3.3,84,280,3.2,61,348,3.2,Industrial Manufacturing,2.9,52,3.3
+Michael W. Lamach,3.2,Ingersoll Rand,None,3.6,296,697,3.6,93,349,3.6,Industrial Manufacturing,3.4,78,3.6
+Brian M. Krzanich,2.9,Intel Corporation,None,3.9,2777,8169,3.6,58,1519,3.7,Computer Hardware & Software,3.5,71,3.6
+Jeffrey C. Sprecher,2.9,Intercontinental Exchange,None,3.6,75,134,2.7,71,13785,3.2,Investment Banking & Asset Management,2.7,54,2.5
+Andreas Fibig,2.7,International Flavors & Fragrances,None,3.5,24,121,3.2,79,355,3.2,Chemical Manufacturing,2.7,68,3.3
+Mark S. Sutton,3.2,International Paper,None,3.8,29,511,3.5,95,356,3.5,Industrial Manufacturing,3.6,67,3
+Michael I. Roth,3.5,Interpublic Group,None,3.3,56,116,3.9,97,358,3.7,Advertising & Marketing,3.1,90,3.8
+Brad Smith,3.6,Intuit,None,4.3,1460,2735,4.2,95,2293,4,Computer Hardware & Software,3.5,81,4.1
+Gary S. Guthart,3.7,Intuitive Surgical,None,4,94,165,4,91,8090,4,Health Care Products Manufacturing,3.8,82,3.5
+Marty Flanagan,3.1,Invesco,None,3.4,158,370,3.5,84,4518,3.4,Investment Banking & Asset Management,3,67,3.7
+William Meaney,2.5,Iron Mountain Inc,None,3.2,208,724,3,58,6774,3,IT Services,2.6,49,3.4
+John N. Roberts III,3,J.B. Hunt,None,3,352,679,3.3,83,1540,3.2,Logistics & Supply Chain,3.3,60,2.7
+Jamie Dimon,3.1,J.P. Morgan,None,3.6,4267,10317,3.4,88,145,3.6,Investment Banking & Asset Management,3.5,70,3.2
+Steven Demetriou,2.8,Jacobs,None,3.3,148,1631,3.3,78,913,3.3,Construction,3.1,63,3.5
+Samuel Allen,3.4,John Deere,None,3.8,552,1106,3.9,95,195,3.8,Industrial Manufacturing,3.3,77,3.8
+Alex Gorsky,3.6,Johnson & Johnson,None,4,1032,2839,4.1,96,364,4.1,Biotech & Pharmaceuticals,3.7,87,3.8
+Alex A. Molinaroli,2.8,Johnson Controls,None,3.6,461,1622,3.3,48,365,3.4,Industrial Manufacturing,3.2,63,3.2
+Ted Doheny II,2.3,Joy Global,None,3.6,42,133,2.9,44,316,3.1,Industrial Manufacturing,2.7,50,3.1
+Rami Rahim,3.5,Juniper Networks,None,4.1,351,1517,4,98,7224,4,Enterprise Software & Network Solutions,3.7,83,3.9
+John Bryant,2.8,Kellogg Company,None,3.6,443,956,3.4,69,377,3.3,Food & Beverage Manufacturing,3.1,59,3.1
+Bob Gamgort,2.2,Keurig Green Mountain,None,3.6,19,282,2.9,67,4869,3,Food & Beverage Manufacturing,2.8,45,3.1
+Beth E. Mooney,3,KeyBank,None,3.4,354,799,3.4,82,381,3.3,Investment Banking & Asset Management,3.1,65,3.6
+Tom Falk,3.4,Kimberly-Clark,None,3.8,472,906,4,90,383,3.9,Consumer Products Manufacturing,3.6,78,3.8
+Steve Kean,2.6,Kinder Morgan,None,3.5,15,267,3,53,4156,3.3,Oil & Gas Services,3,58,2.8
+Rick Wallace,3.1,KLA-Tencor,None,3.4,300,560,3.4,89,1557,3.6,Industrial Manufacturing,3.2,68,3
+Kevin B. Mansell,3.2,Kohl's,None,3,2089,5649,3.6,77,592,3.4,"Department, Clothing, & Shoe Stores",3.1,66,3.5
+Rodney McMullen,2.7,Kroger,None,2.9,978,4800,3.1,59,386,3,Grocery Stores & Supermarkets,2.9,46,2.8
+Leslie H. Wexner,3.3,L Brands,None,3.7,246,405,3.8,94,656,3.6,"Department, Clothing, & Shoe Stores",3.3,72,3.3
+Michael T. Strianese,2.7,L-3 Communications,None,3.7,439,1290,3,71,10080,3.3,Aerospace & Defense,3,59,3.2
+Dave King,2.5,LabCorp,None,3.1,397,1068,2.7,59,1679,3.1,Research & Development,2.7,56,2.9
+Martin Anstice,3.3,Lam Research,None,3.8,176,407,3.7,91,1582,3.7,Electrical & Electronic Manufacturing,3.5,73,3.1
+Joseph A. Sullivan,3.1,Legg Mason,None,3.5,13,99,3.7,89,397,3.5,Investment Banking & Asset Management,2.9,68,4.1
+Karl G. Glassman,3.2,Leggett & Platt,None,3.3,7,108,3.2,100,398,3.3,Miscellaneous Manufacturing,3.5,60,3.2
+Stuart A. Miller,3.2,Lennar,None,3.5,92,181,3.4,82,400,3.4,Real Estate,3.2,57,3.3
+Jeff Storey,2.6,Level 3 Communications,None,3.3,349,970,2.8,63,7705,2.9,"Cable, Internet & Telephone Providers",2.8,47,3
+Dennis R. Glass,2.9,Lincoln Financial Group,None,3.6,216,504,3.5,84,403,3.4,Insurance Carriers,3,69,3.4
+Lothar Maier,3.2,Linear Technology,None,4.1,48,90,2.9,87,1598,3.7,Electrical & Electronic Manufacturing,3,58,3.4
+Marillyn Hewson,3.1,Lockheed Martin,None,3.6,1382,4450,3.5,86,404,3.6,Aerospace & Defense,3.4,72,3.6
+Robert A. Niblock,3,Lowe's,None,3.5,3791,10727,3.5,73,415,3.5,Home Centers & Hardware Stores,3.3,72,3
+Bhavesh V. â€œBobâ€ù Patel,3.2,LyondellBasell,None,3.9,45,261,3.5,96,15015,3.2,Chemical Manufacturing,3.4,64,3.3
+Bob Wilmers,3.1,M&T Bank,None,2.8,322,650,3.4,90,858,3.2,Banks & Credit Unions,3.2,60,3.5
+Art Coppola,2.5,Macerich,None,3.2,36,68,2.8,59,3939,3,Real Estate,2.2,40,3.3
+Terry J. Lundgren,2.7,Macy's,None,2.7,3557,11597,3.1,66,1079,3.1,"Department, Clothing, & Shoe Stores",2.9,53,3.1
+Mark Trudeau,2.3,Mallinckrodt Pharmaceuticals,None,3.2,77,183,2.5,31,669747,2.6,Biotech & Pharmaceuticals,2.4,36,3.1
+Lee Tillman,2.4,Marathon Oil,None,3.8,82,219,3.1,22,8229,2.9,Oil & Gas Exploration & Production,2.6,46,3.8
+Gary R. Heminger,3.7,Marathon Petroleum,None,4.3,136,266,3.9,89,7657,4,Oil & Gas Exploration & Production,3.9,77,3.8
+Arne Sorenson,3.3,Marriott,None,3.4,1287,3646,3.8,90,7790,3.8,"Hotels, Motels, & Resorts",3.6,72,3.2
+Daniel S. Glaser,3.1,Marsh & McLennan Companies,None,3.5,55,491,3.4,95,426,3.6,Insurance Agencies & Brokerages,3.4,77,3.4
+Keith Allman,2.6,Masco,None,3,16,87,3.1,59,427,3,Consumer Products Manufacturing,2.3,54,3.3
+Ajay Banga,3.1,MasterCard,None,3.7,454,750,3.6,92,3677,3.5,Financial Transaction Processing,3.3,70,3.6
+Christopher A. Sinclair,2.5,Mattel,None,3.5,69,484,2.9,52,428,3.1,Consumer Products Manufacturing,2.8,57,3.4
+Lawrence Kurzius,2.8,McCormick & Company,None,3.6,5,128,3.6,63,1627,3.4,Food & Beverage Manufacturing,3,61,3
+Steve Easterbrook,2.8,McDonald's,None,2.6,1620,11724,3,69,432,3.2,Fast-Food & Quick-Service Restaurants,3.1,55,3
+Douglas L. Peterson,2.6,McGraw Hill Financial,None,3.4,59,318,3.1,89,433,3.4,Investment Banking & Asset Management,2.9,70,3.6
+John H. Hammergren,2.9,McKesson,None,3.5,750,1997,3.3,72,434,3.4,Health Care Services & Hospitals,3.1,60,3.3
+Peter Kasper Jakobsen,3.1,Mead Johnson,None,3.7,50,139,3.6,76,13969,3.6,Consumer Products Manufacturing,2.8,82,3.7
+Omar S. Ishrak,3.1,Medtronic,None,3.7,715,1785,3.7,91,436,3.7,Biotech & Pharmaceuticals,3.4,76,3.4
+Kenneth C. Frazier,2.8,Merck,None,3.6,750,1949,3.3,68,438,3.4,Health Care Services & Hospitals,3,64,3.4
+Steven A. Kandarian,2.8,MetLife,None,3.3,707,2062,3.2,71,2899,3.2,Insurance Carriers,2.9,55,3.4
+John Idol,2.9,Michael Kors,None,3.4,274,889,3.3,84,20439,3.4,Other Retail Stores,2.8,61,3.1
+Steve Sanghi,3.4,Microchip Technology,None,3,208,346,3.8,79,2298,3.4,Electrical & Electronic Manufacturing,3.3,69,4.1
+D. Mark Durcan,2.8,Micron Technology,None,3.5,408,972,3.2,74,1648,3.3,Electrical & Electronic Manufacturing,3.2,61,3.2
+Satya Nadella,3.4,Microsoft,None,4,4671,15062,3.8,94,1651,4,Computer Hardware & Software,3.7,84,3.7
+Jeffrey S. Lorberbaum,2.9,Mohawk Industries,None,3.2,114,231,3.1,78,1644,3.2,Industrial Manufacturing,3.2,61,3.2
+Irene Rosenfeld,2.7,Mondelez International,None,3.3,394,974,3,43,628257,3.1,Food & Beverage Manufacturing,2.8,50,2.9
+Hugh Grant,3.3,Monsanto Company,None,3.9,555,964,3.8,94,11986,3.9,Food Production,3.4,79,3.7
+Ray McDaniel Jr.,3,Moody's,None,3,220,467,3.6,83,11303,3.5,Financial Analytics & Research,3.1,70,3.9
+James P. Gorman,3.4,Morgan Stanley,None,3.5,1691,4534,3.7,91,2282,3.7,Investment Banking & Asset Management,3.6,76,3.4
+Joc Oâ€™Rourke,3,Mosaic Company (Minnesota),None,3.8,7,95,3.7,37,18767,3.4,Chemical Manufacturing,3.1,65,3.4
+Gregory Q. Brown,2.6,Motorola Solutions,None,3.4,531,1241,3.1,32,427189,3.2,Telecommunications Manufacturing,2.8,50,3.6
+Roger W. Jenkins,2.1,Murphy Oil,None,3.4,21,128,2.6,23,453,2.6,Oil & Gas Exploration & Production,2.3,36,2.7
+Bob Greifeld,3.1,Nasdaq,None,3.5,133,256,3.2,68,12152,3.3,Stock Exchanges,3.1,61,3.3
+Clay C. Williams,2.9,National Oilwell Varco,None,3.5,311,1088,3.3,74,3306,3.5,Oil & Gas Services,3.1,66,3.5
+John (Jack) F. Remondi,2.7,Navient,None,3.4,49,117,2.8,64,807453,3,Financial Transaction Processing,2.8,43,3
+George Kurian,2.8,NetApp,None,3.6,366,2290,3.7,73,5406,3.4,Enterprise Software & Network Solutions,3,59,3.9
+Reed Hastings,3.3,Netflix,None,4.3,433,617,3.7,88,11891,3.6,Internet,3.2,64,3.5
+Michael B. Polk,2.5,Newell Rubbermaid,None,3,244,570,2.7,53,477,3,Consumer Products Manufacturing,2.8,45,3
+Lee K. Boothby,3,Newfield Exploration,None,4.1,39,63,3.4,73,2367,3.5,Oil & Gas Exploration & Production,3.3,71,3.8
+Gary J. Goldberg,3.2,Newmont Mining,None,4.1,55,142,3.4,73,479,3.3,Mining,3.1,64,3.2
+K. Rupert Murdoch,2.7,News Corp,None,3.3,58,128,3,43,3493,3.3,Motion Picture Production & Distribution,3.2,49,3.4
+James L. Robo,3.2,"NextEra Energy, Inc.",None,3.7,105,281,3.7,72,221824,3.7,Utilities,3.5,73,3
+Mitch Barns,3.3,Nielsen,None,3.1,748,2608,3.7,92,3776,3.6,Advertising & Marketing,3.5,74,3.4
+Mark G. Parker,3.3,NIKE,None,3.6,1249,2377,4.1,93,1699,3.9,Consumer Products Manufacturing,3.5,82,3.6
+Joseph Hamrock,3.1,NiSource,None,3.6,18,89,3.5,87,460,3.5,Utilities,3.3,61,3.6
+David L. Stover,2.7,Noble Energy,None,3.5,58,180,3.2,58,482,3.2,Oil & Gas Exploration & Production,2.8,61,3.7
+Blake W. Nordstrom,3.1,Nordstrom,None,3.4,3928,7041,3.7,90,1704,3.5,"Department, Clothing, & Shoe Stores",3.5,68,2.9
+Wick Moorman IV,2.3,Norfolk Southern,None,3.8,189,444,2.4,52,483,2.8,Rail,3,33,1.9
+Rick Waddell,3.1,Northern Trust,None,2.9,556,1103,3.7,90,1710,3.6,Banks & Credit Unions,3.2,73,3.8
+Wesley G. Bush,3.1,Northrop Grumman,None,3.6,1350,3203,3.5,86,488,3.6,Aerospace & Defense,3.5,76,3.7
+Mauricio Gutierrez,3.1,NRG Energy,None,3.7,36,275,3.4,81,11895,3.5,Energy,3.1,54,3.5
+John J. Ferriola,3.3,Nucor,None,3.8,24,121,3.8,86,489,3.5,Metal & Mineral Manufacturing,3.3,72,2.8
+Jen-Hsun Huang,3.7,NVIDIA,None,3.8,945,1294,4,95,7633,4,Computer Hardware & Software,3.9,86,3.6
+Greg Henslee,2.9,O'Reilly Auto Parts,None,2.7,380,964,3.5,76,2328,3.3,Automotive Parts & Accessories Stores,3.2,59,3
+Vicki Hollub,3.3,Occidental Petroleum,None,3.9,7,290,3.5,81,491,3.7,Oil & Gas Exploration & Production,3.3,75,3.5
+John D. Wren,3.1,Omnicom,None,3.4,28,73,3,89,1734,3.2,Advertising & Marketing,3.3,70,3.1
+Terry K. Spencer,3.7,ONEOK,None,3.2,25,78,3.9,96,490,3.6,Transportation Management,2.9,82,3.8
+Safra A. Catz & Mark Hurd,2.9,Oracle,None,3.1,2182,12492,3.2,69,1737,3.4,Enterprise Software & Network Solutions,3.2,65,3.8
+Andres Lopez,2.6,Owens-Illinois,None,3.4,9,130,2.9,69,2129,3.3,Industrial Manufacturing,3,52,2.8
+Ronald E. Armstrong,2.6,PACCAR,None,2.8,62,374,2.5,71,1744,2.8,Transportation Equipment Manufacturing,3.2,47,3.3
+Anthony F. Earley Jr.,3.1,Pacific Gas and Electric,None,4.1,368,865,3.6,87,15208,3.9,Utilities,3.7,78,3.6
+Lawrence D. Kingsley,2.5,Pall,None,3.2,97,238,2.7,39,974,3,Industrial Manufacturing,2.7,44,2.9
+Tom Williams,2.5,Parker Hannifin,None,3.3,153,776,3,67,517,3.1,Industrial Manufacturing,2.9,54,3.1
+Scott P. Anderson,2.9,Patterson Companies,None,3.1,45,84,3.3,78,1923,3.2,Wholesale,2.9,51,3.3
+Martin Mucci,3.3,Paychex,None,3.4,617,1298,3.7,89,1762,3.6,,3.4,69,3.5
+Randall J. Hogan,2.7,Pentair,None,3.2,121,317,3.1,68,1767,3.2,Industrial Manufacturing,3.1,58,3.1
+John P. (Jack) Barnes,2.3,People's United Bank,None,2.5,100,260,2.8,57,199620,2.6,Investment Banking & Asset Management,2.5,35,2.7
+Joe Rigby,2.8,Pepco Holdings,None,4,47,91,2.8,66,543,3.3,Utilities,3.6,66,3.7
+Indra K. Nooyi,3.2,PepsiCo,None,3.7,1826,4964,3.5,76,522,3.4,Food & Beverage Manufacturing,3.5,63,2.9
+Rob Friel,2.7,PerkinElmer,None,3.2,125,292,3.1,54,218,3.1,Biotech & Pharmaceuticals,2.9,54,3.3
+John Hendrickson,3,Perrigo,None,3.9,11,165,3.3,89,2133,3.6,Biotech & Pharmaceuticals,3.2,74,3.4
+Ian Read,3.3,Pfizer,None,3.8,740,2095,3.6,85,525,3.7,Biotech & Pharmaceuticals,3.3,78,3.6
+Greg C. Garland,3.4,Phillips 66,None,4.1,126,227,3.8,99,498821,3.8,Asphalt Products Manufacturing,3.5,83,3.5
+Marc Lautenbach,3.1,Pitney Bowes,None,3.4,321,1070,3.4,80,535,3.4,Advertising & Marketing,3,61,3.7
+William S. Demchak,3,PNC Financial Services Group,None,3,993,3057,3.6,76,507,3.3,Investment Banking & Asset Management,3.3,59,3.5
+Stefan Larsson,2.7,Ralph Lauren,None,2.9,128,1204,3.2,73,2937,3.3,Other Retail Stores,2.8,55,2.9
+Michael H. McGarry,2.8,PPG,None,3.1,56,576,3,70,508,3.2,Chemical Manufacturing,3.1,56,3.1
+Steve Angel,2.6,Praxair,None,3,173,403,3,78,2207,3.1,Chemical Manufacturing,3,55,3
+Mark Donegan,2.3,Precision Castparts,None,3.4,85,171,2.3,55,1798,2.8,Transportation Equipment Manufacturing,2.9,40,2.1
+Brett Keller,3,Priceline.com,None,3.2,12,99,3.5,61,9005,3.5,Internet,2.8,63,4.3
+Daniel J. Houston,3.1,Principal Financial Group,None,3.5,79,489,3.6,90,2941,3.5,Investment Banking & Asset Management,3.1,68,3.8
+David S. Taylor,3.4,Procter & Gamble,None,3.9,310,4160,4.2,93,544,4,Consumer Products Manufacturing,3.7,85,3.6
+Tricia Griffith,3.3,Progressive Insurance,None,3.8,75,1548,3.9,89,546,3.6,Insurance Carriers,3.4,69,3.3
+Hamid R. Moghadam,3.5,Prologis,None,3.9,30,74,3.7,86,2631,3.7,Real Estate,3.5,76,3.3
+John R. Strangfeld,3.3,Prudential,None,3.5,635,1456,3.7,90,2944,3.5,Investment Banking & Asset Management,3.4,71,3.7
+Ralph Izzo,2.9,PSEG,None,3.8,100,238,3.2,83,16719,3.5,Utilities,3.2,71,3.2
+Ronald L. Havner Jr.,2.9,Public Storage,None,3,425,727,2.9,58,626,3.1,Real Estate,2.6,47,3.4
+Richard J. Dugas Jr.,2.5,Pulte Homes,None,3.2,175,305,3,47,506,2.9,Construction,2.7,47,2.8
+Manny Chirico,3,PVH Corp.,None,3.6,193,349,3.5,80,530,3.5,"Department, Clothing, & Shoe Stores",3,69,3.4
+Steve Mollenkopf,2.9,Qualcomm,None,3.7,1007,3588,3.4,63,640,3.6,Computer Hardware & Software,3.4,67,3.2
+Steve Rusckowski,2.5,Quest Diagnostics,None,3.2,475,1295,2.9,60,6655,3.1,Health Care Services & Hospitals,2.8,52,3
+Thomas A. Kennedy,3,Raytheon,None,3.7,304,2500,3.4,86,561,3.6,Aerospace & Defense,3.4,73,3.6
+Jim Whitehurst,3.4,Red Hat,None,3.7,477,744,4.1,97,8868,4,Computer Hardware & Software,3.8,82,4
+Leonard S. Schleifer,3.4,Regeneron Pharmaceuticals,None,3.8,184,275,3.7,94,981,3.5,Biotech & Pharmaceuticals,3.5,68,3.1
+O. B. Grayson Hall Jr.,3.1,Regions Financial,None,3.3,403,970,3.6,89,1397,3.4,Investment Banking & Asset Management,3.2,63,3.7
+Donald W. (Don) Slager,2.6,Republic Services,None,3.5,254,597,2.9,66,8328,3,Utilities,2.9,48,2.7
+Susan M. Cameron,4,Reynolds American,None,4.1,134,436,4.2,97,7736,4.2,Consumer Products Manufacturing,3.7,88,3.9
+Harold M. Messmer Jr.,3.1,Robert Half,None,3.1,673,1806,3.1,75,1838,3.4,Staffing & Outsourcing,3.4,62,3.2
+Blake Moret,3.2,Rockwell Automation,None,3.5,32,820,3.7,90,567,3.6,Electrical & Electronic Manufacturing,3.3,78,3.6
+Kelly Ortberg,3.2,Rockwell Collins,None,3.4,338,1088,3.7,93,13435,3.6,Aerospace & Defense,3.4,73,3.8
+Barbara Rentler,2.8,Ross Stores,None,2.7,432,2701,3,65,1843,3.1,"Department, Clothing, & Shoe Stores",3.1,53,3.1
+Richard D. Fain,3.1,Royal Caribbean Cruises,None,3.5,248,508,3.6,75,3579,3.7,Cruise Ships,3.7,67,3.1
+Robert E. Sanchez,2.8,Ryder System,None,3.2,214,668,3,84,575,3.3,Transportation Management,3,63,2.8
+Marc Benioff,3.9,Salesforce,None,4.3,1786,2425,4.4,97,11159,4.2,Computer Hardware & Software,4.1,85,3.9
+Stephen D. Milligan,2.9,SanDisk,None,3.6,7,549,3.5,100,4479,3.4,Consumer Products Manufacturing,3.1,64,3.1
+Kevin Marsh,3.5,SCANA,None,3.7,38,84,3.9,91,577,3.8,Energy,3.2,85,4
+Paal Kibsgaard,2.9,Schlumberger,None,3.7,1141,3221,3.4,64,588,3.5,Oil & Gas Services,3.6,69,2.6
+Ken Lowe,3.3,Scripps Networks Interactive,None,3.6,125,229,3.8,88,38201,3.8,TV Broadcast & Cable Networks,3.1,81,4
+Steve Luczo,2.7,Seagate Technology,None,3.2,451,899,3.1,67,1864,3.1,Computer Hardware & Software,2.7,48,3.6
+Jerome Peribere,2.8,Sealed Air Corporation,None,3.3,115,298,3.2,65,590,3.3,Industrial Manufacturing,3.2,60,3.3
+Debra Reed,4,Sempra Energy,None,4.4,48,99,4.1,100,8437,4.5,Utilities,3.8,94,3.8
+John Morikis,3.2,Sherwin-Williams,None,3.8,102,1956,3.6,90,599,3.7,Chemical Manufacturing,3.8,74,3.1
+Rakesh Sachdev,2.9,Sigma-Aldrich,None,3,127,307,3.4,41,1878,3.2,Research & Development,3,64,3.5
+David Simon,2.4,Simon Property Group,None,2.8,110,273,2.5,51,2458,2.8,Real Estate,2.7,43,2.7
+Liam K. Griffin,2.8,Skyworks Solutions,None,3.3,74,139,3,71,762,3.2,Electrical & Electronic Manufacturing,3,59,2.9
+Nick Pinchuk,3.1,Snap-on,None,3.5,72,145,3.6,97,604,3.2,Consumer Products Manufacturing,3,61,2.7
+Thomas A. Fanning,3.2,Southern Company,None,3.9,142,288,3.8,90,607,3.8,Utilities,3.3,72,3.7
+Gary C. Kelly,3.6,Southwest Airlines,None,4.1,766,1105,4.3,84,611,4.1,Airlines,3.9,84,3.9
+Steven L. Mueller,2.8,Southwestern Energy,None,4.2,49,118,3.8,43,614,3.9,Oil & Gas Services,3.3,80,3.8
+Michael T. Rousseau,2.9,St. Jude Medical,None,3.5,19,626,3.2,83,1903,3.3,Health Care Products Manufacturing,3,64,3.3
+John F. Lundgren,2.8,Stanley Black & Decker,None,3.2,184,479,3.1,72,350350,3.3,Industrial Manufacturing,3.2,61,3.2
+Shira  Goodman,2.8,Staples,None,2.8,148,5011,3.2,70,1909,3.2,Office Supply Stores,3,53,3.2
+Howard D. Schultz,3.2,Starbucks,None,3.8,6844,11915,4,88,2202,3.8,Fast-Food & Quick-Service Restaurants,3.4,77,3.4
+Adam Aron,3.2,Starwood Hotels & Resorts,None,3.5,207,1504,3.8,50,335,3.8,"Hotels, Motels, & Resorts",3.6,75,3.4
+Joseph L. Hooley,2.8,State Street,None,2.7,868,2662,2.9,67,1911,3,Investment Banking & Asset Management,3,54,3.3
+Charles A. Alutto,2.5,Stericycle,None,2.9,145,383,2.8,58,6009,2.7,Building & Personnel Services,2.8,39,2.9
+Kevin A. Lobo,3.6,Stryker,None,3.7,498,1178,4,90,1918,3.9,Health Care Products Manufacturing,3.7,76,3.5
+William H. (Bill) Rogers Jr.,2.5,SunTrust,None,3.1,628,1663,3,72,631,3,Banks & Credit Unions,2.9,52,3.1
+Greg Clark,2.7,Symantec,None,3.7,22,2848,3.4,84,1931,3.5,Computer Hardware & Software,3.2,66,3.8
+Bill DeLaney,2.8,Sysco,None,3.5,291,781,3.1,69,634,3.2,Wholesale,3.1,54,2.8
+William J. Stromberg,3.2,T. Rowe Price,None,3.4,31,511,3.7,96,3583,3.7,Investment Banking & Asset Management,3.3,73,3.6
+Brian Cornell,2.9,Target,None,3.1,3702,20180,3.5,75,194,3.4,"Department, Clothing, & Shoe Stores",3.1,62,3.1
+Tom Lynch,2.8,TE Connectivity,None,3.5,404,752,3.3,81,18055,3.3,Electrical & Electronic Manufacturing,3.1,61,3.4
+Trevor Fetter,2.4,Tenet Healthcare,None,3.2,114,309,2.7,67,466,2.9,Health Care Services & Hospitals,2.9,48,2.8
+Vic Lund,2.7,Teradata,None,3.2,40,830,3.2,84,14638,3.4,Computer Hardware & Software,3.1,65,3.8
+Gregory J. Goff,3.4,Tesoro Corporation,None,4.1,69,138,3.6,99,648,3.6,Oil & Gas Exploration & Production,3.6,74,3.3
+Rich Templeton,3.5,Texas Instruments,None,4,1090,1868,4,92,651,4,Electrical & Electronic Manufacturing,3.7,87,3.7
+Scott C. Donnelly,3.3,Textron,None,3.5,90,217,3.4,72,654,3.6,Aerospace & Defense,3.4,69,3.4
+Christopher Swift,3,The Hartford,None,3.5,258,1187,3.5,79,4314,3.3,Insurance Carriers,3.1,56,3.3
+John P. (J.P.) Bilbrey,3,The Hershey Company,None,3.8,204,462,3.7,74,326,3.4,Food & Beverage Manufacturing,3.1,66,3.2
+Craig Menear,3,The Home Depot,None,3.2,2549,12534,3.6,78,655,3.4,Home Centers & Hardware Stores,3.3,66,3
+Mark T. Smucker,3.4,The J. M. Smucker Company,None,3.6,16,214,3.9,83,362,3.7,Food & Beverage Manufacturing,3.4,70,3.9
+Marc N. Casper,2.7,Thermo Fisher Scientific,None,3.1,540,1394,3.1,75,658,3.1,Biotech & Pharmaceuticals,3,58,3
+Frederic Cumenal,2.6,Tiffany & Co.,None,3.4,82,692,3,60,663,3.1,Other Retail Stores,2.7,48,2.9
+Jeff Bewkes,2.5,Time Warner,None,3.6,79,190,3,82,12777,3.2,TV Broadcast & Cable Networks,2.7,56,3.2
+Robert D. Marcus,2.9,Time Warner Cable,None,3.8,830,3170,3.3,54,13229,3.4,"Cable, Internet & Telephone Providers",3.3,66,3.2
+Ernie Herrman,3.1,TJX Companies,None,2.9,23,1222,3.5,100,639,3.4,"Department, Clothing, & Shoe Stores",3.2,68,3.4
+Greg Sandfort,2.7,Tractor Supply,None,2.9,246,669,3.5,68,2602,3.1,Home Centers & Hardware Stores,3.1,55,2.8
+Jeremy D. Thigpen,3.1,Transocean,None,3.9,15,135,3.3,75,33,3.5,Oil & Gas Exploration & Production,3.1,75,3.5
+Alan D. Schnitzer,3.1,Travelers,None,3.7,84,1438,3.3,86,1904,3.4,Insurance Carriers,3.3,67,3.3
+Stephen Kaufer,2.9,TripAdvisor,None,3.8,255,372,3.5,78,15276,3.5,Internet,3,66,3.7
+Troy Woods,2.7,TSYS|Total System Services,None,3.3,110,371,3.3,75,671,3.2,Financial Transaction Processing,2.9,56,3.4
+George R. Oliver,2.2,Tyco,None,3,193,778,2.6,47,681,2.7,Industrial Manufacturing,2.5,40,2.9
+Donnie Smith,3.1,Tyson Foods,None,3.7,191,489,3.4,89,1975,3.4,Food & Beverage Manufacturing,3.4,65,3.1
+Richard K. Davis,3.2,U.S. Bank,None,2.9,1935,3282,3.5,91,8937,3.4,,3.2,65,3.4
+Kevin A. Plank,3.2,Under Armour,None,3.5,324,558,4.1,97,15422,3.8,Consumer Products Manufacturing,3.4,77,3.2
+Lance Fritz,2.5,Union Pacific,None,4,165,668,2.8,62,691,3.2,Transportation Management,3.3,52,2.3
+Michael J. Kneeland,3.2,United Rentals,None,3.8,235,355,3.4,88,7395,3.6,Commercial Equipment Rental,3.5,79,3.4
+Gregory J. Hayes,2.6,United Technologies,None,3.1,66,481,2.9,66,697,3.2,Aerospace & Defense,3,54,3
+Steve Hemsley,2.7,UnitedHealth Group,None,3,1792,5322,3.2,73,1991,3.1,Insurance Carriers,3.1,56,3.2
+Alan B. Miller,2.5,Universal Health Services,None,3,110,278,2.7,52,2001,2.9,Health Care Services & Hospitals,2.8,44,2.8
+Rick McKenney,3.4,Unum Group,None,3.9,3,360,3.6,100,9522,3.6,Insurance Carriers,3.3,75,3.8
+David Abney,3,UPS,None,3.8,1285,6764,3.3,79,3012,3.5,Logistics & Supply Chain,3.5,67,3.1
+Richard A. Hayne,2.8,Urban Outfitters,None,2.9,462,1460,3.5,53,2372,3.3,"Department, Clothing, & Shoe Stores",3,61,3.1
+Joe Gorder,3.8,Valero Energy,None,4.2,54,240,4.2,93,704,4.1,Energy,3.6,85,3.8
+Dow R. Wilson,3.1,Varian Medical Systems,None,3.5,146,296,3.6,88,9111,3.5,Health Care Products Manufacturing,2.9,68,3.6
+D. James Bidzos,3,Verisign,None,4.3,94,286,3.5,81,7492,3.8,IT Services,3.3,73,3.9
+Lowell McAdam,2.8,Verizon,None,4,2211,6009,3.2,65,89,3.4,Enterprise Software & Network Solutions,3.1,63,3.1
+"Jeffrey Leiden, M.D., Ph.D",3.1,Vertex Pharmaceuticals,None,4.3,81,201,3.6,57,2080,3.4,Biotech & Pharmaceuticals,3.2,61,3.3
+Eric C. Wiseman,3.2,VF,None,3.6,78,187,3.5,87,703,3.6,Consumer Products Manufacturing,3.1,75,3.3
+Philippe P. Dauman,3.1,Viacom,None,3.2,271,664,3.7,47,40260,3.6,Motion Picture Production & Distribution,3.2,62,3.7
+Charles Scharf,2.4,Visa Inc.,None,3.3,14,1524,2.8,38,3035,2.8,IT Services,2.7,45,3.1
+DG Macpherson,2.8,W.W. Grainger,None,3.6,14,1347,3.3,67,711,3.4,Wholesale,3.1,61,3.4
+Stefano Pessina,2.8,Walgreens,None,3,1289,8867,3.1,49,716,3.2,Drug & Health Stores,3,51,2.9
+Doug McMillon,2.7,Walmart,None,3.1,5519,22182,3,65,715,3.2,General Merchandise & Superstores,3.3,56,2.8
+Bob Iger,3.3,Walt Disney Company,None,3.5,1124,2123,4.1,88,717,3.8,Motion Picture Production & Distribution,3.4,77,3.4
+David P. Steiner,2.5,Waste Management,None,3.5,481,976,2.9,64,2094,3.1,Utilities,2.9,55,2.9
+Christopher O'Connell,3.5,Waters,None,3.5,26,186,3.8,98,5431,4,Biotech & Pharmaceuticals,3.7,80,3.8
+Timothy J. Sloan,3,Wells Fargo,None,3.5,12,14381,3.5,55,8876,3.4,Banks & Credit Unions,3.5,65,3.3
+Stephen D. Milligan,2.5,Western Digital,None,2.9,218,651,2.7,48,1067,2.9,Computer Hardware & Software,2.6,38,3
+Hikmet Ersek,2.9,Western Union,None,3.5,247,540,3.3,79,14655,3.4,Financial Transaction Processing,3.1,63,3.4
+Doyle Simons,2.7,Weyerhaeuser,None,3.1,79,292,3.3,40,730,3.3,Wood Product Manufacturing,2.9,52,3.3
+Jeff M. Fettig,3,Whirlpool Corporation,None,3.3,451,970,3.6,81,732,3.5,Consumer Products Manufacturing,3.6,70,3.4
+John Mackey and Walter Robb,2.8,Whole Foods Market,None,3.4,1702,4150,3.5,64,422,3.4,Grocery Stores & Supermarkets,3.3,62,3.1
+Alan S. Armstrong,3,Williams,None,4,114,251,3.6,70,736,3.7,Oil & Gas Services,3.1,68,4
+Stephen P. Holmes,3.2,Wyndham Worldwide,None,3.5,243,548,3.6,88,40166,3.5,"Hotels, Motels, & Resorts",3.4,66,3.3
+Stephen A. Wynn,3.2,Wynn Resorts,None,3.8,99,177,3.9,80,15096,3.9,Gambling,3.6,79,3.3
+Benjamin G.S. Fowke III,2.9,Xcel Energy,None,3.5,108,259,3.1,73,487,3.3,Utilities,3.1,62,3.4
+Ursula M. Burns,2.3,Xerox,None,2.5,2166,4881,2.5,37,747,2.6,Computer Hardware & Software,2.4,36,2.8
+Moshe Gavrielov,3.2,Xilinx,None,3.6,360,539,3.4,76,2063,3.7,Electrical & Electronic Manufacturing,3.3,75,3.7
+Michael McGavick,3,XL Catlin,None,3.8,105,228,3.3,88,5891,3.4,Insurance Carriers,3,66,3.6
+Patrick K. Decker,2.5,Xylem,None,3.1,38,134,3,72,494852,3,Utilities,2.8,48,3
+Marissa Mayer,2.9,Yahoo,None,3.9,1094,2918,3.7,66,5807,3.6,Internet,3.3,61,3.9
+Greg Creed,3.5,Yum!,None,3.5,41,217,4,93,6995,3.7,Fast-Food & Quick-Service Restaurants,3.6,74,3.5
+Harris H. Simmons,3.4,Zions Bancorporation,None,3,106,184,3.5,83,2053,3.5,Banks & Credit Unions,3.5,71,3.9
+Juan Ramon Alaix,2.7,Zoetis,None,3.6,65,197,2.9,68,680848,3.1,Biotech & Pharmaceuticals,2.7,52,3.4
